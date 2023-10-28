@@ -5,6 +5,13 @@
   --softTextColor: #626262;
 }
 
+.light {
+  --bg: white;
+  --textColor: black;
+  --softBg: #f0f0f0;
+  --softTextColor: #626262;
+}
+
 .dark {
   --bg: #0f172a;
   --textColor: #ddd;
