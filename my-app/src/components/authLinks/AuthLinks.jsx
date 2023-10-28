@@ -1,4 +1,6 @@
 import Link from "next/link";
+
+// Style
 import styles from "./authLinks.module.css";
 
 const AuthLinks = () => {

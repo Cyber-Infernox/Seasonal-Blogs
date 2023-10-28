@@ -1,10 +1,12 @@
+import Link from "next/link";
 import Image from "next/image";
+
+// Components
+import AuthLinks from "../authLinks/AuthLinks";
+import ThemeToggle from "../themeToggle/ThemeToggle";
 
 // Style
 import styles from "./navbar.module.css";
-import Link from "next/link";
-import AuthLinks from "../authLinks/AuthLinks";
-import ThemeToggle from "../themeToggle/ThemeToggle";
 
 const Navbar = () => {
   return (
