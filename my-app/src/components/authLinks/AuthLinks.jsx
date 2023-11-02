@@ -11,12 +11,12 @@ const AuthLinks = () => {
   const [open, setOpen] = useState(false);
 
   const { status } = useSession();
-  console.log(status);
+  // console.log(status);
 
   return (
     <>
       {status === "unauthenticated" ? (
-        <Link className={styles.link} href="/login</>">
+        <Link className={styles.link} href="/login">
           Login
         </Link>
       ) : (
