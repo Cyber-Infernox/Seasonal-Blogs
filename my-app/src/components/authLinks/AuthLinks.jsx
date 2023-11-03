@@ -11,7 +11,11 @@ const AuthLinks = () => {
   const [open, setOpen] = useState(false);
 
   const { status } = useSession();
-  // console.log(status);
+  console.log(status);
+
+  const signOutHandler = () => {
+    signOut();
+  };
 
   return (
     <>
@@ -24,7 +28,7 @@ const AuthLinks = () => {
           <Link className={styles.link} href="/write">
             Write
           </Link>
-          <span className={styles.link} onClick={signOut}>
+          <span className={styles.link} onClick={signOutHandler}>
             Logout
           </span>
         </>
